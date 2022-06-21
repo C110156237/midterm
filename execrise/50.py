@@ -1,0 +1,6 @@
+all = set(["John","Mary","Tina","Fiona","Claire","Eva","Ben","Bill","Bert"])
+passeng = set(["John","Mary","Fiona","Claire","Ben","Bill"])
+passmath = set(["Mary","Fiona","Claire","Eva","Ben"])
+print("英文數學都及格", passeng&passmath)
+print("數學不及格",all-passmath)
+print("英文及格且數學不及格",passeng&all-passmath)
